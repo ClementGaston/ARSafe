@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="EPILOG_ZING-16.Right" size="0.520000 0.315120"/>
+        <ImageTarget name="EPILOG_ZING-16.Front" size="0.730000 0.315125"/>
+        <ImageTarget name="EPILOG_ZING-16.Top" size="0.730000 0.519917"/>
+        <ImageTarget name="EPILOG_ZING-16.Bottom" size="0.730000 0.519917"/>
+        <ImageTarget name="EPILOG_ZING-16.Left" size="0.520000 0.315120"/>
+        <ImageTarget name="EPILOG_ZING-16.Back" size="0.730000 0.315125"/>
+        <MultiTarget name="EPILOG_ZING-16">
+            <Part name="EPILOG_ZING-16.Left" translation="-0.36500000953674316 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="EPILOG_ZING-16.Right" translation="0.36500000953674316 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="EPILOG_ZING-16.Front" translation="0 0 0.25999999046325684" rotation="AD: 1 0 0 0"/>
+            <Part name="EPILOG_ZING-16.Back" translation="0 0 -0.25999999046325684" rotation="AD: 0 1 0 180"/>
+            <Part name="EPILOG_ZING-16.Top" translation="0 0.1574999988079071 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="EPILOG_ZING-16.Bottom" translation="0 -0.1574999988079071 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>

@@ -4,7 +4,6 @@
 #
 /[Ll]ibrary/
 /[Tt]emp/
-/[Pp]ackages/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
@@ -47,6 +46,7 @@ ExportedObj/
 *.mdb
 *.opendb
 *.VC.db
+*.tgz
 
 # Unity3D generated meta files
 *.pidb.meta
