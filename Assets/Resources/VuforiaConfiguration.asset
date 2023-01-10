@@ -21,7 +21,7 @@ MonoBehaviour:
     maxSimultaneousImageTargets: 1
     virtualSceneScaleFactor: 1
     modelTargetRecoWhileExtendedTracked: 1
-    shareRecordingsInITunes: 0
+    shareRecordingsInITunes: 1
     logLevel: 0
     version: 10.12.3
     eulaAcceptedVersions: '{"Values":["","0.0","10.12"]}'
@@ -44,8 +44,8 @@ MonoBehaviour:
     autoImportArcore: 1
     thirdPartyARCoreClientDetected: 0
   playmode:
-    mSequencePath: 
-    playModeType: 0
+    mSequencePath: D:/clement/Code/ARSafe/Assets/VuforiaRecorded/VuforiaSession-20230110-085435.mp4
+    playModeType: 2
   webcam:
     renderTextureLayer: 30
   packageInformation:
