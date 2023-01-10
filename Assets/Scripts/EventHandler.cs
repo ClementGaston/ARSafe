@@ -7,6 +7,7 @@ public class EventHandler : MonoBehaviour {
     public TextMeshProUGUI DisplayInstruction;
     public GameObject PrevButton;
     public GameObject NextButton;
+    public bool isDecoupeuseFound = false;
 
     private int nbStep;
     private int curStep = 0;
@@ -17,10 +18,18 @@ public class EventHandler : MonoBehaviour {
         SetStep();
     }
 
+    public void onDecoupeuseFound() {
+        if(!isDecoupeuseFound) {
+            isDecoupeuseFound = true;
+            curStep++;
+            SetStep();
+        }
+    }
+
     public void NextStep() {
         curStep++;
 
-        if(curStep > 0 && !PrevButton.activeSelf) {
+        if(curStep > 1 && !PrevButton.activeSelf) {
             PrevButton.SetActive(true);
         }
 
@@ -34,7 +43,7 @@ public class EventHandler : MonoBehaviour {
     public void PrevStep() {
         curStep--;
 
-        if(curStep == 0) {
+        if(curStep == 1) {
             PrevButton.SetActive(false);
         }
         
@@ -45,7 +54,7 @@ public class EventHandler : MonoBehaviour {
     }
 
     public void SetStep() {
-        DisplayStep.SetText((curStep + 1).ToString());
+        DisplayStep.SetText(curStep.ToString());
         DisplayInstruction.SetText(instructions[curStep]);
     }
 }
