@@ -4,27 +4,27 @@ using TMPro;
 public class EventHandler : MonoBehaviour
 {
     public string[] instructions;
-    public TextMeshProUGUI DisplayStep;
-    public TextMeshProUGUI DisplayInstruction;
-    public GameObject PrevButton;
-    public GameObject NextButton;
+    public TextMeshProUGUI displayStep;
+    public TextMeshProUGUI displayInstruction;
+    public GameObject prevButton;
+    public GameObject nextButton;
 
-    private bool isDecoupeuseFound = false;
+    private bool isLaserCutterFound = false;
     private int nbStep;
     private int curStep = 0;
 
     private void Awake()
     {
         nbStep = instructions.Length - 1;
-        PrevButton.SetActive(false);
+        prevButton.SetActive(false);
         SetStep();
     }
 
     public void onDecoupeuseFound()
     {
-        if (!isDecoupeuseFound)
+        if (!isLaserCutterFound)
         {
-            isDecoupeuseFound = true;
+            isLaserCutterFound = true;
             curStep++;
             SetStep();
         }
@@ -34,15 +34,15 @@ public class EventHandler : MonoBehaviour
     {
         curStep++;
 
-        if (curStep > 1 && !PrevButton.activeSelf)
+        if (curStep > 1 && !prevButton.activeSelf)
         {
-            PrevButton.SetActive(true);
+            prevButton.SetActive(true);
         }
 
 
         if (curStep == nbStep)
         {
-            NextButton.SetActive(false);
+            nextButton.SetActive(false);
         }
         SetStep();
     }
@@ -53,19 +53,19 @@ public class EventHandler : MonoBehaviour
 
         if (curStep == 1)
         {
-            PrevButton.SetActive(false);
+            prevButton.SetActive(false);
         }
 
-        if (curStep < nbStep && !NextButton.activeSelf)
+        if (curStep < nbStep && !nextButton.activeSelf)
         {
-            NextButton.SetActive(true);
+            nextButton.SetActive(true);
         }
         SetStep();
     }
 
     public void SetStep()
     {
-        DisplayStep.SetText("Etape n°" + curStep.ToString());
-        DisplayInstruction.SetText(instructions[curStep]);
+        displayStep.SetText("Etape n°" + curStep.ToString());
+        displayInstruction.SetText(instructions[curStep]);
     }
 }
