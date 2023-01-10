@@ -17,7 +17,7 @@ MonoBehaviour:
     ufoLicenseKey: QVc4U01vUC8vLy8vQUFBQUtMVU5SVW14N0UxR3FGbW93TGdwaXJtRjRpS0N2ZnAxVnNDeGNVN21KbXZ5K1EwTWNoYkttcFpZTGtPa2pTNmhvT3BEejJvQ1h6SlNUOVF0YzlOOWdvUDRuNCtGZ0tVT2lsNmtqK1E4ZnUwaHFkVjJYRDNndUZsazE5SnZkVVN6K3B5bVQ5YjlCdmQ0SUxZdUNGTm45NVVmK01ZZHFnR3hoekpZc0xDSDdIKzJCMjNJK2dhZmRQbWJaV0pKQk1OYW4vS2VJTG9xaEpHUTNUWXRjUmFLaFI0eURhT0NSbnVqR0EzL09uZWx4YWdsT3pScTVmdHJVYVZNSzN6eVM5S0dSTU1Ub2hNc3JRZW4zRkhKMGNtWGJFVE9POUIyK0M4TEh2VlBVdW5rOFk5Nm1oaElEcm9tWkVBZHpZMEhVeFkvRW1wTG9DbitsczczVHQvRjVGK2hKM3YzbFl3VHF4YzhKZXVIVEJVUHR6Q1Q=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
-    cameraDeviceModeSetting: -1
+    cameraDeviceModeSetting: -2
     maxSimultaneousImageTargets: 1
     virtualSceneScaleFactor: 1
     modelTargetRecoWhileExtendedTracked: 1
@@ -33,18 +33,18 @@ MonoBehaviour:
     unlitTransparentShader: {fileID: 10750, guid: 0000000000000000f000000000000000,
       type: 0}
   videoBackground:
-    numDivisions: 2
+    numDivisions: 60
     videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
       type: 3}
     unlitShader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoStartTracker: 1
+    autoStartTracker: 0
     arcoreRequirement: 1
     autoImportArcore: 1
     thirdPartyARCoreClientDetected: 0
   playmode:
-    mSequencePath: D:/clement/Code/ARSafe/Assets/VuforiaRecorded/VuforiaSession-20230110-085435.mp4
+    mSequencePath: D:/clement/Code/ARSafe/Assets/VuforiaRecorded/VuforiaSession-20230110-132652.mp4
     playModeType: 2
   webcam:
     renderTextureLayer: 30
