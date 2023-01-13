@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="Filtreuse.Right" size="0.560000 0.619964"/>
+        <ImageTarget name="Filtreuse.Front" size="0.730000 0.619956"/>
+        <ImageTarget name="Filtreuse.Top" size="0.730000 0.559943"/>
+        <ImageTarget name="Filtreuse.Bottom" size="0.730000 0.559943"/>
+        <ImageTarget name="Filtreuse.Left" size="0.560000 0.619948"/>
+        <ImageTarget name="Filtreuse.Back" size="0.730000 0.619934"/>
+        <MultiTarget name="Filtreuse">
+            <Part name="Filtreuse.Left" translation="-0.36500000953674316 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Filtreuse.Right" translation="0.36500000953674316 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Filtreuse.Front" translation="0 0 0.2800000011920929" rotation="AD: 1 0 0 0"/>
+            <Part name="Filtreuse.Back" translation="0 0 -0.2800000011920929" rotation="AD: 0 1 0 180"/>
+            <Part name="Filtreuse.Top" translation="0 0.3100000023841858 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Filtreuse.Bottom" translation="0 -0.3100000023841858 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
