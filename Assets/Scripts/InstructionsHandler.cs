@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using System;
+using UnityEngine.SceneManagement;
 
 [System.Serializable]
 public class SkippablePanel
@@ -21,9 +22,9 @@ public class InstructionsHandler : MonoBehaviour
     public TextMeshProUGUI stepText;
     public GameObject prevBtn;
     public GameObject nextBtn;
+    public TextMeshPro nextBtnText;
     private int currentPanel = 0;
     private int nbPanel = 0;
-    // public GameObject doneBtn;
 
     public SkippablePanel[] skippablePanels;
 
@@ -33,13 +34,15 @@ public class InstructionsHandler : MonoBehaviour
         prevBtn.SetActive(false);
         nextBtn.SetActive(true);
 
+        prevBtn.AddComponent<OnClickHandler>().SetOnClick(PrevPanel);
+        nextBtn.AddComponent<OnClickHandler>().SetOnClick(NextPanel);
+
         SetPanel(currentPanel);
 
         for (int i = 0; i < skippablePanels.Length; i++)
         {
             skippablePanels[i].index = Array.FindIndex(instructionsPanel, x => x == skippablePanels[i].instructionPanel);
         }
-        // doneBtn.SetActive(false);
     }
 
     public void NextPanel()
@@ -53,8 +56,8 @@ public class InstructionsHandler : MonoBehaviour
 
         if (currentPanel == nbPanel - 1)
         {
-            nextBtn.SetActive(false);
-            // doneBtn.SetActive(true);
+            nextBtn.GetComponent<OnClickHandler>().SetOnClick(Done);
+            nextBtnText.text = "Fini";
         }
     }
 
@@ -81,6 +84,12 @@ public class InstructionsHandler : MonoBehaviour
         {
             prevBtn.SetActive(false);
         }
+
+        if (currentPanel == nbPanel - 2)
+        {
+            nextBtn.GetComponent<OnClickHandler>().SetOnClick(NextPanel);
+            nextBtnText.text = "Suiv.";
+        }
     }
 
     public void SkipPanel()
@@ -92,6 +101,11 @@ public class InstructionsHandler : MonoBehaviour
             SetPanel(currentPanel + skippablePanels[index].nbPanelToSkip + 1);
             skippablePanels[index].isSkipped = true;
         }
+    }
+
+    public void Done()
+    {
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void SetPanel(int step)
@@ -109,16 +123,12 @@ public class InstructionsHandler : MonoBehaviour
 
         int index = Array.FindIndex(skippablePanels, x => x.instructionPanel == instructionsPanel[currentPanel]);
 
-        Debug.Log(index);
         if (index != -1)
         {
-            Debug.Log("skippable");
             nextBtn.SetActive(false);
-            Debug.Log(nextBtn.activeSelf);
         }
         else if (!nextBtn.activeSelf)
         {
-            Debug.Log("not skippable");
             nextBtn.SetActive(true);
         }
     }
