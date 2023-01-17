@@ -57,7 +57,7 @@ public class InstructionsHandler : MonoBehaviour
         if (currentPanel == nbPanel - 1)
         {
             nextBtn.GetComponent<OnClickHandler>().SetOnClick(Done);
-            nextBtnText.text = "Fini";
+            nextBtnText.text = "FINI";
         }
     }
 
@@ -88,7 +88,7 @@ public class InstructionsHandler : MonoBehaviour
         if (currentPanel == nbPanel - 2)
         {
             nextBtn.GetComponent<OnClickHandler>().SetOnClick(NextPanel);
-            nextBtnText.text = "Suiv.";
+            nextBtnText.text = "SUIV.";
         }
     }
 
@@ -108,7 +108,7 @@ public class InstructionsHandler : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-    public void SetPanel(int step)
+    private void SetPanel(int step)
     {
         int indexToReset = Array.FindIndex(skippablePanels, x => x.instructionPanel == instructionsPanel[currentPanel]);
 
