@@ -7,5 +7,6 @@ public class InitiliazeProcedure : MonoBehaviour
     public void HideLaserCutter()
     {
         laserCutterPlaceholder.SetActive(false);
+        Handheld.Vibrate();
     }
 }

@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
-using System;
 using UnityEngine.SceneManagement;
+using System.Collections.Generic;
 
 [System.Serializable]
 public class SkippablePanel
@@ -16,9 +16,16 @@ public class SkippablePanel
     public int index;
 }
 
+[System.Serializable]
+public class Instruction
+{
+    public GameObject panel;
+    public GameObject fullscreen;
+}
+
 public class InstructionsHandler : MonoBehaviour
 {
-    public GameObject[] instructionsPanel;
+    public List<Instruction> instructions;
     public TextMeshProUGUI stepText;
     public GameObject prevBtn;
     public GameObject nextBtn;
@@ -26,11 +33,11 @@ public class InstructionsHandler : MonoBehaviour
     private int currentPanel = 0;
     private int nbPanel = 0;
 
-    public SkippablePanel[] skippablePanels;
+    public List<SkippablePanel> skippablePanels;
 
     void Start()
     {
-        nbPanel = instructionsPanel.Length;
+        nbPanel = instructions.Count;
         prevBtn.SetActive(false);
         nextBtn.SetActive(true);
 
@@ -39,9 +46,9 @@ public class InstructionsHandler : MonoBehaviour
 
         SetPanel(currentPanel);
 
-        for (int i = 0; i < skippablePanels.Length; i++)
+        for (int i = 0; i < skippablePanels.Count; i++)
         {
-            skippablePanels[i].index = Array.FindIndex(instructionsPanel, x => x == skippablePanels[i].instructionPanel);
+            skippablePanels[i].index = instructions.FindIndex(x => x.panel == skippablePanels[i].instructionPanel);
         }
     }
 
@@ -64,7 +71,7 @@ public class InstructionsHandler : MonoBehaviour
 
     public void PrevPanel()
     {
-        int index = Array.FindIndex(skippablePanels, x => x.index + 1 + x.nbPanelToSkip == currentPanel);
+        int index = skippablePanels.FindIndex(x => x.index + 1 + x.nbPanelToSkip == currentPanel);
 
         if (index != -1 && skippablePanels[index].isSkipped)
         {
@@ -94,7 +101,7 @@ public class InstructionsHandler : MonoBehaviour
 
     public void SkipPanel()
     {
-        int index = Array.FindIndex(skippablePanels, x => x.instructionPanel == instructionsPanel[currentPanel]);
+        int index = skippablePanels.FindIndex(x => x.instructionPanel == instructions[currentPanel].panel);
 
         if (index != -1)
         {
@@ -110,18 +117,18 @@ public class InstructionsHandler : MonoBehaviour
 
     private void SetPanel(int step)
     {
-        int indexToReset = Array.FindIndex(skippablePanels, x => x.instructionPanel == instructionsPanel[currentPanel]);
+        int indexToReset = skippablePanels.FindIndex(x => x.instructionPanel == instructions[currentPanel].panel);
 
         if (indexToReset != -1)
         {
             skippablePanels[indexToReset].isSkipped = false;
         }
-        instructionsPanel[currentPanel].SetActive(false);
+        instructions[currentPanel].panel.SetActive(false);
         currentPanel = step;
-        instructionsPanel[currentPanel].SetActive(true);
+        instructions[currentPanel].panel.SetActive(true);
         stepText.text = "Etape " + (currentPanel + 1) + " sur " + nbPanel;
 
-        int index = Array.FindIndex(skippablePanels, x => x.instructionPanel == instructionsPanel[currentPanel]);
+        int index = skippablePanels.FindIndex(x => x.instructionPanel == instructions[currentPanel].panel);
 
         if (index != -1)
         {
