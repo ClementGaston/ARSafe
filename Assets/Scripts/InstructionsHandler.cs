@@ -110,6 +110,12 @@ public class InstructionsHandler : MonoBehaviour
         }
     }
 
+    public void Fullscreen()
+    {
+        Debug.Log("Fullscreen");
+        // instructions[currentPanel].fullscreen.SetActive(true);
+    }
+
     public void Done()
     {
         SceneManager.LoadScene("MainMenu");
