@@ -19,14 +19,15 @@ public class SkippablePanel
 
 public class InstructionsHandler : MonoBehaviour
 {
-    public GameObject instructionsFolder;
     [HideInInspector]
     public List<GameObject> instructions;
+    public GameObject instructionsFolder;
     public Canvas fullscreenPopup;
     public TextMeshProUGUI stepText;
     public GameObject prevBtn;
     public GameObject nextBtn;
     public TextMeshPro nextBtnText;
+    private float phoneRatio;
     private int currentPanel = 0;
     private int nbPanel = 0;
 
@@ -42,6 +43,10 @@ public class InstructionsHandler : MonoBehaviour
                 instructions.Add(child.gameObject);
             }
         }
+
+        // Set the phone ratio
+        phoneRatio = (float)Screen.width / (float)Screen.height;
+        Debug.Log(phoneRatio);
 
         // Initialize nbPanel
         nbPanel = instructions.Count;
@@ -148,7 +153,16 @@ public class InstructionsHandler : MonoBehaviour
         FullscreenImage.GetComponent<Image>().sprite = sprite;
 
         // Set the aspect ratio
+        if(spriteRatio < phoneRatio) {
+            FullscreenImage.GetComponent<AspectRatioFitter>().aspectMode = AspectRatioFitter.AspectMode.HeightControlsWidth;
+        } else {
+            FullscreenImage.GetComponent<AspectRatioFitter>().aspectMode = AspectRatioFitter.AspectMode.WidthControlsHeight;
+        }
+
         FullscreenImage.GetComponent<AspectRatioFitter>().aspectRatio = spriteRatio;
+        FullscreenImage.GetComponent<RectTransform>().offsetMin = new Vector2(50, 50);
+        FullscreenImage.GetComponent<RectTransform>().offsetMax = new Vector2(-50, -50);
+        FullscreenImage.GetComponent<RectTransform>().transform.localPosition = new Vector3(0, 0, 0);
 
         // Set the animation
         if (animation != null)
@@ -162,6 +176,7 @@ public class InstructionsHandler : MonoBehaviour
         // Set the close button position
         Transform CloseBtn = fullscreenPopup.transform.GetChild(2);
         CloseBtn.localPosition = new Vector3(FullscreenImage.GetComponent<RectTransform>().rect.width / 2, FullscreenImage.GetComponent<RectTransform>().rect.height / 2, 0);
+        Debug.Log(FullscreenImage.GetComponent<RectTransform>().rect.height / 2 + " , " + spriteRatio);
     }
 
     public void Done()
