@@ -44,7 +44,7 @@ MonoBehaviour:
     autoImportArcore: 1
     thirdPartyARCoreClientDetected: 0
   playmode:
-    mSequencePath: C:/Users/clement/Desktop/Code/ARSafe/Assets/[D] VuforiaRecorded/VuforiaSession-20230110-132652.mp4
+    mSequencePath: D:/clement/Code/ARSafe/Assets/[D] VuforiaRecorded/VuforiaSession-20230110-132652.mp4
     playModeType: 2
   webcam:
     renderTextureLayer: 30
