@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -406,7 +406,7 @@ MonoBehaviour:
   mTargetName: EPILOG_ZING-16
   mDatasetName: Vuforia/MultiTarget.xml
   mCastedBehaviour: {fileID: 30734347}
-  mBaseMesh: {fileID: 1456274142}
+  mBaseMesh: {fileID: 1605534902}
 --- !u!1 &138950221
 GameObject:
   m_ObjectHideFlags: 0
@@ -573,6 +573,170 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!43 &187659762
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200020001000300
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 4
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 128
+    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000803f0000803f000000bf000000000000003f000000000000803f000000000000803f000000000000003f00000000000000bf000000000000803f00000000000000000000803f0000003f000000000000003f000000000000803f000000000000000000000000
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!4 &218793177 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2639959798049707849, guid: 4c3c61beb6b26dd48a01354e3238d57e,
@@ -993,7 +1157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 1.9999695}
+  m_AnchoredPosition: {x: 0, y: -50}
   m_SizeDelta: {x: -100, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &463003757
@@ -1018,8 +1182,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Mettez vous devant la d\xE9coupeuse laser"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac728fa55df228647a3c5f2db9d08c43, type: 2}
-  m_sharedMaterial: {fileID: 6717469968986261992, guid: ac728fa55df228647a3c5f2db9d08c43,
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
+  m_sharedMaterial: {fileID: -6171067364577153677, guid: 1c148240a1a35254d822fc43a4337277,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -1044,7 +1208,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 57.85
+  m_fontSize: 56.5
   m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2100,7 +2264,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pause
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac728fa55df228647a3c5f2db9d08c43, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7a4cb7c13dab8744bbe6a5f2d5869b53, type: 2}
   m_sharedMaterial: {fileID: 6717469968986261992, guid: ac728fa55df228647a3c5f2db9d08c43,
     type: 2}
   m_fontSharedMaterials: []
@@ -2165,7 +2329,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &878038815
@@ -3192,7 +3356,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Retour au menu
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -3257,7 +3421,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1370948313
@@ -3268,170 +3432,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370948310}
   m_CullTransparentMesh: 1
---- !u!43 &1372158239
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 6
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 4
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.5}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200020001000300
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 4
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000803f0000803f000000bf000000000000003f000000000000803f000000000000803f000000000000003f00000000000000bf000000000000803f00000000000000000000803f0000003f000000000000003f000000000000803f000000000000000000000000
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0.5, y: 0, z: 0.5}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1383998722
 GameObject:
   m_ObjectHideFlags: 0
@@ -3548,170 +3548,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!43 &1456274142
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  serializedVersion: 10
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 6
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 4
-    localAABB:
-      m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.5}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000200020001000300
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 4
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 128
-    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000803f0000803f000000bf000000000000003f000000000000803f000000000000803f000000000000003f00000000000000bf000000000000803f00000000000000000000803f0000003f000000000000003f000000000000803f000000000000000000000000
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 0.5, y: 0, z: 0.5}
-  m_MeshUsageFlags: 0
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &1509379145
 GameObject:
   m_ObjectHideFlags: 0
@@ -3774,7 +3610,7 @@ MonoBehaviour:
 
 '
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -3839,7 +3675,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1509379148
@@ -4016,6 +3852,170 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!43 &1605534902
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 6
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 4
+    localAABB:
+      m_Center: {x: 0, y: 0, z: 0}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000200020001000300
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 4
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 128
+    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000803f0000803f000000bf000000000000003f000000000000803f000000000000803f000000000000003f00000000000000bf000000000000803f00000000000000000000803f0000003f000000000000003f000000000000803f000000000000000000000000
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0.5, y: 0, z: 0.5}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1608483783
 GameObject:
   m_ObjectHideFlags: 0
@@ -4077,7 +4077,7 @@ MonoBehaviour:
   m_text: "Tout le mode \"Missing Ping\"  ---> VENDREDI\n    Grosse pop-up\n+ SURTOUT
     VERIFIER LE FONCTIONNEMENT DE LA MACHINE ET FAIRE UN TRUC STYLE AVEC LES FLECHES/BORDS\n\nFinal
     v\xE9rif overall ---> CE WE / LUNDI\n   - Niveler l'UI des intrucstions (hauteur,
-    positions)\n   - Fonts\n   - Machine en 3D ? \n   - Bonne Dimensions ?"
+    positions)\n   - Machine en 3D ? \n   - Bonne Dimensions ?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4743,7 +4743,7 @@ MonoBehaviour:
   mTargetName: Filtreuse
   mDatasetName: Vuforia/EpilogZing16-HD.xml
   mCastedBehaviour: {fileID: 1796375845}
-  mBaseMesh: {fileID: 1372158239}
+  mBaseMesh: {fileID: 187659762}
 --- !u!1001 &1800965246
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5414,7 +5414,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: " Lancer la d\xE9coupe et/ou la gravure en cliquant sur le bouton play."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -5479,7 +5479,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!23 &357880896441858166
@@ -5779,7 +5779,7 @@ MonoBehaviour:
   m_text: "Les t\xE9moins de d\xE9bit d\u2019air s\u2019allument en bleu. A l'aide
     des boutons, mettre le d\xE9bit d'air au niveau 4, 5 ou 6"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -5844,7 +5844,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -13.789314, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!224 &613365089016195779
@@ -6563,7 +6563,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Soulever le capot de la machine
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -6628,7 +6628,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1493885611563225181
@@ -6677,7 +6677,7 @@ MonoBehaviour:
   m_text: "Attendre que l'\xE9cran s'allume, le nom de la marque doit s'afficher
     au bout de quelques secondes."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -6742,7 +6742,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &1542547083691695839
@@ -6860,7 +6860,7 @@ MonoBehaviour:
   m_text: "Aller sur le PC et lancer l\u2019impression d\u2019un fichier depuis l\u2019ordinateur
     (PhotoLaser Plus Advanced Epilog Edition)."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -6925,7 +6925,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1820534122926155826
@@ -7006,7 +7006,7 @@ MonoBehaviour:
   m_text: "Le t\xE9moin est \xE0 la vertical et en l\xE9ger contact avec le mat\xE9riau
     ?"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -7071,7 +7071,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &1908853179425814184
@@ -7112,7 +7112,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  - {fileID: -6171067364577153677, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7627,7 +7627,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Tirer sur la partie droite du t\xE9moin afin de le lib\xE9rer de l\u2019aimant."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -7692,7 +7692,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &2351455857108331022
@@ -7761,8 +7761,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SUIV.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
-  m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
+  m_sharedMaterial: {fileID: -6171067364577153677, guid: 1c148240a1a35254d822fc43a4337277,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -8643,8 +8643,8 @@ MonoBehaviour:
   m_text: "Allumer l\u2019interrupteur sur la\r\ndroite de la d\xE9coupeuse\r\ngraveuse
     laser."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
-  m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
+  m_sharedMaterial: {fileID: -6171067364577153677, guid: 1c148240a1a35254d822fc43a4337277,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -9200,8 +9200,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: PREC.
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
-  m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
+  m_sharedMaterial: {fileID: -6171067364577153677, guid: 1c148240a1a35254d822fc43a4337277,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -9295,7 +9295,7 @@ MonoBehaviour:
     nom du job \xBB appara\xEEt sur l'\xE9cran. Si ce n'est pas le cas, contacter
     le responsable Fab'Lab."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -9360,7 +9360,7 @@ MonoBehaviour:
   m_margin: {x: -78.82127, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &4452786333992791528
@@ -9724,7 +9724,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Fermer le capot de la machine
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -9789,7 +9789,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &4903281324850873758
@@ -9814,7 +9814,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Non
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -9879,7 +9879,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &4914328421104337302
@@ -10061,7 +10061,7 @@ MonoBehaviour:
   m_text: "Placer la mati\xE8re \xE0 d\xE9couper et ou graver en but\xE9e au fond
     du plateau de d\xE9coupe."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -10126,7 +10126,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &5187782599611478634
@@ -10465,7 +10465,7 @@ MonoBehaviour:
   m_text: "Appuyer sur le bouton marche/arr\xEAt pour allumer le syst\xE8me d\u2019extraction
     / filtration."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -10530,7 +10530,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -13.789314, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &5534564975229555537
@@ -10625,7 +10625,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Oui
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -10690,7 +10690,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!224 &5617448312066709396
@@ -10987,7 +10987,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: Appuyer sur le bouton de nivellement
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -11052,7 +11052,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &5842801097045811809
@@ -11346,7 +11346,7 @@ MonoBehaviour:
   m_text: "Ajuster le t\xE9moin en appuyant sur la fl\xE8che du haut pour faire monter
     le plateau, et sur la fl\xE8che du bas pour le baisser."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -11411,7 +11411,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &6209642887041151981
@@ -11565,7 +11565,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  - {fileID: -6171067364577153677, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11719,7 +11719,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Brancher le c\xE2ble RJ45 directement \xE0 l\u2019ordinateur."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -11784,7 +11784,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &6720808768380907514
@@ -11976,8 +11976,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Etape X/X
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: ac728fa55df228647a3c5f2db9d08c43, type: 2}
-  m_sharedMaterial: {fileID: 6717469968986261992, guid: ac728fa55df228647a3c5f2db9d08c43,
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
+  m_sharedMaterial: {fileID: -6171067364577153677, guid: 1c148240a1a35254d822fc43a4337277,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -12702,7 +12702,7 @@ MonoBehaviour:
     Si une autre LED est allum\xE9, arr\xEAter la proc\xE9dure et contacter le responsable
     Fab'Lab."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -12767,7 +12767,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: -13.789314, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!114 &8031670697472638560
@@ -12833,7 +12833,7 @@ MonoBehaviour:
   m_text: "Prendre le t\xE9moin de hauteur \xE0 droite sur l\u2019axe de la lentille
     et le faire glisser au milieu.\r"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5e842c79172596f46a3fb683dc64f2ea, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
   m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
     type: 2}
   m_fontSharedMaterials: []
@@ -12898,7 +12898,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!224 &8076235538715681939

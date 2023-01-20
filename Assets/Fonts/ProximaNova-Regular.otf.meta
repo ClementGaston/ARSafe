@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 54989182d9a86a149b1bd7ac4632f6f0
+guid: c4a2fe3d21a905d4fa482c7054bce112
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Soin Sans Neue
+  - Proxima Nova
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0

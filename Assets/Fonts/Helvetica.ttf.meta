@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5a18d4476cb6d4041b89facabf6635ef
+guid: 64deb6bf92ddec14293064044898b082
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Proxima Nova
+  - Helvetica
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
