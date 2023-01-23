@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<QCARInfo>
+    <TargetSet version="36.0" toolVersion="v5.7.2">
+        <ModelTarget name="Zpilog_Zing_16" targetId="03e1214b16c149bdb7c1fb1499f86d23" version="13.0" toolVersion="v5.7.2" bbox="-3.664770 -1.494659 -2.602791 3.651354 1.639370 2.865782" trackingMode="scan" upVector="0.0 1.0 0.0" optimizeTrackingFor="low_feature_objects" realisticTextures="yes" />
+    </TargetSet>
+    <Assembly name="Zpilog_Zing_16" assemblyId="06a5cca79be84b7aba54b2cdc4735435">
+        <Part name="Zpilog_Zing_16" translation="0 0 0" rotation="AD: 0 0 1 0" />
+        <EntryPoint name="(none)" trained="yes" />
+    </Assembly>
+</QCARInfo>

@@ -1306,7 +1306,8 @@ MonoBehaviour:
     et que vous r\xE9ussirez tous vos projets de d\xE9coupe laser."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -6171067364577153677, guid: 1c148240a1a35254d822fc43a4337277,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2127,7 +2128,7 @@ MonoBehaviour:
     laser et de mieux utiliser ses fonctionnalit\xE9s."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1c148240a1a35254d822fc43a4337277, type: 2}
-  m_sharedMaterial: {fileID: 2293580343566384016, guid: 5e842c79172596f46a3fb683dc64f2ea,
+  m_sharedMaterial: {fileID: -6171067364577153677, guid: 1c148240a1a35254d822fc43a4337277,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -2300,7 +2301,8 @@ MonoBehaviour:
   m_text: Objectif
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7a4cb7c13dab8744bbe6a5f2d5869b53, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: -6681588807966760887, guid: 7a4cb7c13dab8744bbe6a5f2d5869b53,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2670,7 +2672,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -500}
+  m_AnchoredPosition: {x: 0, y: -550}
   m_SizeDelta: {x: 150, y: 375}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1796016436
