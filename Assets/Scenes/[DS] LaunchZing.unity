@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028334, g: 0.2257134, b: 0.30692226, a: 1}
+  m_IndirectSpecularColor: {r: 0.18346177, g: 0.2290388, b: 0.30586773, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -879,7 +879,7 @@ PrefabInstance:
     - target: {fileID: 535607803731127567, guid: 8f4a081fbf8306c4b91f6c8ef0bf52aa,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.000011
+      value: -25.999954
       objectReference: {fileID: 0}
     - target: {fileID: 535607803731127567, guid: 8f4a081fbf8306c4b91f6c8ef0bf52aa,
         type: 3}
@@ -954,7 +954,7 @@ PrefabInstance:
     - target: {fileID: 535607803731127567, guid: 8f4a081fbf8306c4b91f6c8ef0bf52aa,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.000042
+      value: -25.999992
       objectReference: {fileID: 0}
     - target: {fileID: 535607803731127567, guid: 8f4a081fbf8306c4b91f6c8ef0bf52aa,
         type: 3}
@@ -1787,14 +1787,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1285888985}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0.69908714, y: 0.38900092, z: -0.65868974}
+  m_LocalRotation: {x: 0.953717, y: 0, z: 0, w: 0.30070582}
+  m_LocalPosition: {x: 0.374, y: 1.066, z: 0.646}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_LocalEulerAnglesHint: {x: 145, y: 0, z: 0}
 --- !u!1 &1305551815
 GameObject:
   m_ObjectHideFlags: 0
@@ -2232,7 +2232,7 @@ GameObject:
   - component: {fileID: 1388981185}
   - component: {fileID: 1388981187}
   - component: {fileID: 1388981184}
-  - component: {fileID: 1388981183}
+  - component: {fileID: 1388981188}
   m_Layer: 0
   m_Name: ModelTarget
   m_TagString: Untagged
@@ -2240,25 +2240,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1388981183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1388981182}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1621554113, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mObserverBehaviour: {fileID: 1388981185}
-  mHiddenRoot: {fileID: 0}
-  mTargetName: Zpilog_Zing_16
-  mDatasetName: Vuforia/EpilogZing.xml
-  mCastedBehaviour: {fileID: 1388981185}
-  mModelScale: {x: 0.7316124, y: 0.3134029, z: 0.5468573}
-  mModelTargetPreview: {fileID: 0}
 --- !u!114 &1388981184
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2355,7 +2336,7 @@ MonoBehaviour:
   mTrackingOptimization: 0
   mTrackingOptimizationNeedsUpgrade: 0
   mHasRealisticTextures: 1
-  mPreview: {fileID: 1388981183}
+  mPreview: {fileID: 1388981188}
   mAutoValidationDataSetName: 
 --- !u!4 &1388981186
 Transform:
@@ -2386,6 +2367,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   laserCutterPlaceholder: {fileID: 436520599}
+--- !u!114 &1388981188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388981182}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1621554113, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1388981185}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: Zpilog_Zing_16
+  mDatasetName: Vuforia/EpilogZing.xml
+  mCastedBehaviour: {fileID: 1388981185}
+  mModelScale: {x: 0.7316124, y: 0.3134029, z: 0.5468573}
+  mModelTargetPreview: {fileID: 0}
 --- !u!1 &1409520256
 GameObject:
   m_ObjectHideFlags: 0
@@ -8283,7 +8283,7 @@ PrefabInstance:
     - target: {fileID: 535607803731127567, guid: 8f4a081fbf8306c4b91f6c8ef0bf52aa,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.00003
+      value: -26
       objectReference: {fileID: 0}
     - target: {fileID: 535607803731127567, guid: 8f4a081fbf8306c4b91f6c8ef0bf52aa,
         type: 3}
