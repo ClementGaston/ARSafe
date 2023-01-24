@@ -46,7 +46,6 @@ public class InstructionsHandler : MonoBehaviour
 
         // Set the phone ratio
         phoneRatio = (float)Screen.width / (float)Screen.height;
-        Debug.Log(phoneRatio);
 
         // Initialize nbPanel
         nbPanel = instructions.Count;
@@ -56,9 +55,6 @@ public class InstructionsHandler : MonoBehaviour
         // Add onClick event to prev and next buttons
         prevBtn.AddComponent<OnClickHandler>().SetOnClick(PrevPanel);
         nextBtn.AddComponent<OnClickHandler>().SetOnClick(NextPanel);
-
-        // Set the first panel
-        SetPanel(currentPanel);
 
         // Set the index for each skippable panel
         for (int i = 0; i < skippablePanels.Count; i++)
@@ -80,6 +76,9 @@ public class InstructionsHandler : MonoBehaviour
                 }
             }
         }
+
+        // Set the first panel
+        SetPanel(currentPanel);
     }
 
     public void NextPanel()
@@ -107,6 +106,7 @@ public class InstructionsHandler : MonoBehaviour
         if (index != -1 && skippablePanels[index].isSkipped)
         {
             // Set the previous skippable panel
+            skippablePanels[index].isSkipped = false;
             SetPanel(skippablePanels[index].index);
         }
         else
@@ -116,9 +116,6 @@ public class InstructionsHandler : MonoBehaviour
         }
         // Set the prev button active if current panel is not the first one
         prevBtn.SetActive(currentPanel != 0);
-
-        // Set the next button active if current panel is not the second last one
-        nextBtn.SetActive(currentPanel != nbPanel - 2);
 
         // Change next button text and action if current panel is the second last one
         if (currentPanel == nbPanel - 2)
@@ -189,12 +186,6 @@ public class InstructionsHandler : MonoBehaviour
         // Deactivate current panel
         instructions[currentPanel].SetActive(false);
 
-        // Reset skip status for current panel
-        int indexToReset = skippablePanels.FindIndex(x => x.instructionPanel == instructions[currentPanel]);
-        if (indexToReset != -1)
-        {
-            skippablePanels[indexToReset].isSkipped = false;
-        }
         // Update current panel index
         currentPanel = step;
 
@@ -205,8 +196,8 @@ public class InstructionsHandler : MonoBehaviour
         stepText.text = "Etape " + (currentPanel + 1) + "/" + nbPanel;
 
         // Check if new panel is skippable
-        int index = skippablePanels.FindIndex(x => x.instructionPanel == instructions[currentPanel]);
-        if (index != -1)
+        int index = skippablePanels.FindIndex(x => x.index == currentPanel);
+        if (index != -1 && skippablePanels[index].index == currentPanel)
         {
             nextBtn.SetActive(false);
         }
